@@ -112,7 +112,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
-		color: #666;
+		color: rgb(238, 245, 245);
 		line-height: 1.5em;
 	}
 
@@ -2633,3 +2633,12 @@ input, select, textarea {
 				}
 
 	}
+#title{
+	padding: 1em;
+}
+/* #name{
+	
+}
+#sub{
+	
+} */
