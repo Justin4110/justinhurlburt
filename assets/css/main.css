@@ -2642,3 +2642,34 @@ input, select, textarea {
 #sub{
 	color:rgb(177, 176, 173)
 } 
+#author {
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+}
+#text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 50px;
+    font-size: 33px;
+    color: white;
+}
+#new-quote {    
+    display: block;
+    background-image: linear-gradient(to right bottom, rgb(118, 10, 242), yellow);
+    float: right;
+    color: rgb(79, 78, 78);
+    font-family: fantasy;
+    padding: 9px;
+
+}
+#tweet {
+    float: right;
+}
+#h1-inspire {
+	margin-left: 500px;
+	margin-right: 500px;
+    color: rgb(16, 56, 214);
+    text-align: center;
+    font-size: 65px;
+    font-family: fantasy; 
+}

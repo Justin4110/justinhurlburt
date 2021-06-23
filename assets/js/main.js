@@ -121,3 +121,62 @@
 				});
 
 })(jQuery);
+
+var quotes = [
+    {text: "Be yourself, everyone else is already taken.",
+    authors: "Oscar Wilde"        
+},
+    {text: "Be the change that you wish to see in the world.",
+    authors: "Mahatma Gandhi"
+},
+    {text: "I have not failed. I\'ve just found 10000 ways that don\'t work.",
+    authors: "Thomas A. Edison"
+},
+    {text: "It is never too late to be what you might have been.",
+    authors: "George Eliot"
+},
+    {text: "Life isn\'t about finding yourself. Life is about creating yourself.",
+    authors: "George Bernard Shaw"
+},
+    {text: "Do what you can, with what you have, where you are.",
+    authors: "Theodore Roosevelt"
+},
+    {text: "Do what you feel in your heart to be right - for you\'ll be criticized anyway.",
+    authors: "Eleanor Roosevelt"
+},
+    {text: "Peace begins with a smile.",
+    authors: "Mother Teresa"
+},
+    {text: "Whatever you are, be a good one.",
+    authors: "Abraham Lincoln"
+},
+    {text: "May you live every day of your life.",
+    authors: "Jonathan Swift"
+},
+    {text: "Always do what you are afraid to do.",
+    authors: "Ralph Waldo Emerson"
+},
+    {text: "The mind is its own place, and in itself can make heaven of hell, a hell of heaven...",
+    authors: "John Milton"
+},
+    {text: "The way to get started is to quit talking and begin doing.",
+    authors: "Walt Disney"
+},
+    {text: "It is during our darkest moments that we must focus to see the light.",
+    authors: "Aristotle"
+},
+    {text: "Never let the fear of striking out keep you from playing the game.",
+    authors: "Babe Ruth"
+},
+    {text: "Life is either a daring adventure or nothing at all.",
+    authors: "Helen Keller"
+},
+    {text: "The most difficult thing is the decision to act, the rest is merely tenacity.",
+    authors: "Amelia Earhart"
+}
+]
+
+function newQuote() {
+    var index = Math.floor(Math.random() * quotes.length);
+    document.getElementById("text").innerHTML = quotes[index].text + "  -" + quotes[index].authors;    
+}
