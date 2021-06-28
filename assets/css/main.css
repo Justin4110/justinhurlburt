@@ -2678,3 +2678,18 @@ input, select, textarea {
 	font-family: cursive;
 	color: rgb(226, 31, 243);
 }
+#tribute {
+	font-family: cursive;
+	color: rgb(226, 31, 243);
+}
+#about-me {
+	font-family: cursive;
+}
+#mountain-pic {
+	max-width: 100%;
+	height: fit-content;
+}
+#about-info {
+	font-family: cursive;
+	color: rgb(72, 237, 51);
+}
