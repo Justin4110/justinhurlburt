@@ -117,12 +117,12 @@ input, select, textarea {
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-		color: inherit;
+		color: rgb(64, 65, 63);
 		text-decoration: none;
 	}
 
 		h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
-			color: #333;
+			color: rgb(199, 7, 7);
 		}
 
 	h2 {
@@ -2633,13 +2633,10 @@ input, select, textarea {
 				}
 
 	}
-#title{
+#title {
 	padding: 0.5em;
 }
-/* #name{
-	
-}*/
-#sub{
+#sub {
 	color:rgb(177, 176, 173)
 } 
 #author {
@@ -2672,4 +2669,12 @@ input, select, textarea {
     text-align: center;
     font-size: 65px;
     font-family: fantasy; 
+}
+#response {
+	font-family: cursive;
+	color: rgb(226, 31, 243);
+}
+#java-cert {
+	font-family: cursive;
+	color: rgb(226, 31, 243);
 }

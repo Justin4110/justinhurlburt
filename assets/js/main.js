@@ -173,6 +173,12 @@ var quotes = [
 },
     {text: "The most difficult thing is the decision to act, the rest is merely tenacity.",
     authors: "Amelia Earhart"
+},
+	{text: "Get two birds stoned at once.",
+	authors: "Ricky"
+},
+	{text: "Everything has beauty, but not everyone can see.",
+	authors: "Confucius"
 }
 ]
 
