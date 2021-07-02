@@ -2220,7 +2220,7 @@ input, select, textarea {
 		}
 
 			#main > section.dark {
-				color: #ddd;
+				color: #fff;
 				color: rgba(255, 255, 255, 0.75);
 			}
 
@@ -2648,7 +2648,7 @@ input, select, textarea {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 50px;
     font-size: 33px;
-    color: white;
+    color: rgb(29, 189, 225);
 }
 #new-quote {    
     display: block;
@@ -2665,31 +2665,49 @@ input, select, textarea {
 #h1-inspire {
 	margin-left: 500px;
 	margin-right: 500px;
-    color: rgb(16, 56, 214);
+    color: rgb(29, 189, 225);
     text-align: center;
     font-size: 65px;
     font-family: fantasy; 
 }
-#response {
-	font-family: cursive;
-	color: rgb(226, 31, 243);
-}
-#java-cert {
-	font-family: cursive;
-	color: rgb(226, 31, 243);
-}
-#tribute {
+#h3-divs {
 	font-family: cursive;
 	color: rgb(226, 31, 243);
 }
 #about-me {
+	padding-top: 100px;
+	color: rgb(29, 189, 225);
 	font-family: cursive;
 }
-#mountain-pic {
+#diagram {
 	max-width: 100%;
-	height: fit-content;
+	max-height: 600px;	
 }
 #about-info {
 	font-family: cursive;
-	color: rgb(72, 237, 51);
+	color: rgb(29, 189, 225);
+}
+#portfolio {
+	color: rgb(235, 235, 31);
+}
+#h2-portfolio {
+	color: rgb(29, 189, 225);
+	font-family: cursive;
+}
+#name {
+	color: rgb(29, 189, 225);
+}
+#sub {
+	color: rgb(29, 189, 225);
+}
+#top-link {
+	color: rgb(29, 189, 225);
+}
+#h3-diagram {
+	color: rgb(29, 189, 225);
+	font-family: cursive;
+}
+#diagram-descript {
+	color: rgb(29, 189, 225);
+	font-family: cursive;
 }
