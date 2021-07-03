@@ -186,3 +186,5 @@ function newQuote() {
     var index = Math.floor(Math.random() * quotes.length);
     document.getElementById("text").innerHTML = quotes[index].text + "  -" + quotes[index].authors;    
 }
+newQuote()
+$("#new-quote").click(getQuote);
